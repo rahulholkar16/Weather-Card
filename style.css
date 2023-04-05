@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#87cefa, rgb(231, 226, 226));
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0 rgba(255 255 255 / 10%),
+    -2px -2px 4px 0 rgba(255 255 255 / 10%);
+    height: 400px;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.main-container .search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 280px;
+    height: 40px;
+    background: #fff;
+    border-radius: 25px;
+}
+
+.main-container .search-box input {
+    border: none;
+    font-size: 16px;
+    margin-left: 13px;
+    height: 35px;
+}
+
+.main-container .search-box input:focus {
+    outline: none;
+    font-weight: 500;
+}
+
+.main-container .search-box .btn {
+    margin-right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.main-container .location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.main-container .location span {
+    font-size: 14px;
+    font-weight: 550;
+    opacity: 0.6;
+}
+
+.main-container .temp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container .temp img {
+    filter: drop-shadow(2px 2px 4px rgba(0 0 0 / 50%));
+}
+
+.main-container .temp span {
+    color: gray;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.main-container .header {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.main-container .header .wind-speed {
+    margin-left: 5px;
+    font-weight: bold;
+    color: gray;
+}
+
+.main-container .header .wind-speed p {
+    text-align: center;
+}
+    
+
+.main-container .header .huminity {
+    margin-right: 5px;
+    color: gray;
+    font-weight: bold;
+}
+
+.main-container .header .huminity p {
+    text-align: center;
+}
+    
+
